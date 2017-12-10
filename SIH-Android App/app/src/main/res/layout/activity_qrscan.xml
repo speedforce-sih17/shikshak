@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.flashz.shikshak.QRScan">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:hint="FirstName"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"
+
+            />
+        <EditText
+            android:id="@+id/middle_name"
+            android:hint="MiddleName"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/last_name"
+            android:hint="LastName"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/date_birth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:hint="Date of Birth (dd/mm/yyyy) "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification"
+            android:layout_marginBottom="25dp"
+            android:textSize="20dp"/>
+        <Spinner
+            android:id="@+id/qualification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Id"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/email"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile no"
+            android:layout_marginBottom="25dp"
+            android:id="@+id/phone"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Do u need a job"/>
+        <Spinner
+            android:id="@+id/job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"></Spinner>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fields"/>
+        <Spinner
+            android:id="@+id/field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"></Spinner>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"/>
+        <Spinner
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"></Spinner>
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginBottom="25dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/repass"
+            android:hint="Re-type Password"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/adhaar_id"
+            android:hint="Adhaar id"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="25dp"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/register"
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
