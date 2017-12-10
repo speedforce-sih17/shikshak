@@ -13,16 +13,27 @@ Only those teacher will get a notification update whose qualification criteria i
 
 
 ##### Technology Stack:
-  - Laravel
-  - PHP
-  - MySQL
+  - Laravel (PHP + MySQL)
   - Android
 
-### Team Members
-#### SpeedForce
-  - Zarrar Shaikh
-  - Umang Galaiya
-  - Soham Dodia
-  - Kush Shah
-  - Richa Shukla
-  - Stuti Patel
+### Team Members [SpeedForce]
+  - [Zarrar Shaikh](https://github.com/Zlash65)
+  - [Umang Galaiya](https://github.com/umanghome)
+  - [Soham Dodia](https://github.com/sohamdodia)
+  - [Kush Shah](https://github.com/shahkush18)
+  - [Richa Shukla](https://github.com/Richa-Shukla)
+  - [Stuti Patel](https://github.com/stuti8P)
+
+### People by Departments
+
+#### Android
+  * Zarrar
+  * Stuti
+  * Kush
+
+#### Frontend
+  * Soham
+  * Richa
+
+#### Backend
+  * Umang
